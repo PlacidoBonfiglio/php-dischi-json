@@ -9,6 +9,7 @@ body {
 }
 
 .col {
-    min-height: 200px;
     background-color: #10202F;
+    border-radius: 10px;
+    cursor: pointer;
 }

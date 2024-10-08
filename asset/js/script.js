@@ -12,13 +12,13 @@ createApp({
             .then((response) => {
                 // handle success
                 console.log(response.data);
-                this.getDiscsList = response.data;
+                this.discsList = response.data;
             })
             .catch(function (error) {
                 // handle error
                 console.log(error);
             });
-    }
+    },
   },
   mounted() {
     this.getDiscsList();
