@@ -8,6 +8,10 @@ body {
     background-color: #1D2D3C;
 }
 
+h1 {
+    line-height: 80px;
+}
+
 .col {
     background-color: #10202F;
     border-radius: 10px;
