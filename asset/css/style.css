@@ -1,8 +1,14 @@
 header {
     height: 80px;
     background-color: #05131E;
+    margin-bottom: 50px;
 }
 
 body {
     background-color: #1D2D3C;
+}
+
+.col {
+    min-height: 200px;
+    background-color: #10202F;
 }

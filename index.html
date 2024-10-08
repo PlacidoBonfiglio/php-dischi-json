@@ -14,10 +14,11 @@
     <!-- Axios -->
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.min.js" integrity="sha512-DdX/YwF5e41Ok+AI81HI8f5/5UsoxCVT9GKYZRIzpLxb8Twz4ZwPPX+jQMwMhNQ9b5+zDEefc+dcvQoPWGNZ3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="../css/style.css">
+    <!-- JS -->
+    <script defer src="./asset/js/script.js"></script>
 
-    <script defer src="./js/script.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./asset/css/style.css">
 </head>
 
 <body>
@@ -26,9 +27,23 @@
     </header>
 
     <main id="app">
-        <section>
-
-        </section>
+        <div class="container">
+            <section>
+                <div class="row row-cols-1 row-cols-md-4 gap-5  justify-content-center">
+                    <div class="col text-white p-3" v-for="((dics, index) in discsList)" :key="index">
+                        CIIIIIAOOO
+                    </div>
+    
+                    <div class="col text-white">
+                        CIIIIIAOOO
+                    </div>
+    
+                    <div class="col text-white">
+                        CIIIIIAOOO
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
 </body>
 

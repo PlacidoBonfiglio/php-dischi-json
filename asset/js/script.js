@@ -8,17 +8,15 @@ createApp({
   },
   methods: {
     getDiscsList() {
-        axios.get('http://localhost/Esercizio%2046%20-%20PHP%20Dischi%20JSON/php-dischi-json/')
-            .then(function (response) {
+        axios.get('http://localhost/Esercizio%2046%20-%20PHP%20Dischi%20JSON/php-dischi-json/api/dischi.json')
+            .then((response) => {
                 // handle success
-                console.log(response);
+                console.log(response.data);
+                this.getDiscsList = response.data;
             })
             .catch(function (error) {
                 // handle error
                 console.log(error);
-            })
-            .finally(function () {
-                // always executed
             });
     }
   },
